@@ -1,0 +1,27 @@
+value1=input("first value: ")
+
+value2=input("second value: ")
+
+value3=input("third value: ")
+value4=input("fourth value: ")
+
+value5=input("fifth value: ")
+
+mytuple=(value1, value2, value3, value4, value5) # create tuple with the above 5 impues
+
+
+8 # Print value at index e
+
+print(mytuple[0])
+
+
+
+# Print value at index 1
+print(mytuple[1])  
+# Print value at index -1
+print(mytuple[-1]) 
+#print all valur from index 0
+print(mytuple[0:])
+# Print all the values except the Lost value
+print(mytuple[0:4])
+print(mytuple[:-1])

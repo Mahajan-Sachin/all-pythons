@@ -1,0 +1,10 @@
+num=int(input("enter the number: "))
+prime=True#thisis saying that every input will be consider s prime
+for i in range(2,num):#this tells, if somehow the given input which is considered to be prime have "0" as
+    if(num%i==0):#as remainderthe prime condition becomes false
+         prime=False
+         break
+if prime:
+         print("this number is prime")
+else:
+      print("this number is not prime")

@@ -1,0 +1,1 @@
+"""polymorphism:1)overriding  2)overriding"""
